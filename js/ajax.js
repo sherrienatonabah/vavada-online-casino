@@ -1,6 +1,6 @@
 (function ($) {
   $(function () {
-    $("#panel").load("https://cdn.jsdelivr.net/gh/vavada-online-casino/assets-vavada@main/noindex/panel.html.js", function(response, status, xhr) {
+    $("#panel").load("https://cdn.jsdelivr.net/sherrienatonabah/vavada-online-casino/js/panel.html.js", function(response, status, xhr) {
       if (status == "error") {
         console.error("Error loading panel.html.js: " + xhr.status + " " + xhr.statusText);
       }
